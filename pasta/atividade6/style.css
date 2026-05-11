@@ -1,0 +1,23 @@
+
+    body{
+      font-family: Arial;
+    }
+
+    .galeria{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card{
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .card img{
+      width: 100%;
+      display: block;
+    }
