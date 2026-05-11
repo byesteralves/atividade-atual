@@ -3,85 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Verificador de Idade</title>
-
-  <style>
-
-    body{
-      font-family: Arial;
-      background-color: #f4f4f4;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      height: 100vh;
-    }
-
-    .container{
-      background-color: white;
-
-      padding: 30px;
-
-      border-radius: 10px;
-
-      width: 320px;
-
-      text-align: center;
-
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-
-    input{
-      width: 100%;
-
-      padding: 10px;
-
-      margin: 15px 0;
-
-      border-radius: 5px;
-
-      border: 1px solid #ccc;
-    }
-
-    button{
-      width: 100%;
-
-      padding: 10px;
-
-      background-color: green;
-
-      color: white;
-
-      border: none;
-
-      border-radius: 5px;
-
-      cursor: pointer;
-    }
-
-    button:hover{
-      background-color: darkgreen;
-    }
-
-  </style>
 </head>
-
 <body>
-
   <div class="container">
 
     <h1>Verificar Idade</h1>
 
     <input type="number" id="idade" placeholder="Digite sua idade">
-
     <button onclick="verificarIdade()">
       Verificar
     </button>
-
     <h2 id="mensagem"></h2>
-
   </div>
-
   <script>
 
     function verificarIdade(){
